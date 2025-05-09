@@ -1,0 +1,14 @@
+.image {
+  height: 500px;
+  background-color: #f0f0f0;
+}
+
+.list .image {
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all 500ms linear 500ms;
+}
+.list .image.appear {
+  transform: translateX(0) rotate(360deg) scale(1);
+  opacity: 1;
+}
