@@ -23,3 +23,4 @@ const observer = new IntersectionObserver(callback, option);
 images.forEach((image) => {
   observer.observe(image);
 });
+//.
